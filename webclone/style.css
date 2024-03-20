@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+}
+.nav{
+    background-color: rgb(77, 71, 71);
+    height: 4.5vh;
+    width: 100vw;
+    
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 1.8vw;
+    margin-top: 1.5vh;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul{
+    margin-left: 25vw;
+}
+.logo img{
+    position:absolute;
+    height: 2vh;
+    margin-left:24vw ;
+    margin-top: 1.2vh;
+   }
+   .nav a:hover{
+    color:rgb(204, 203, 203);
+   }
+   
+   /* this is my main section*/
+   .box{
+    display: inline-block;
+    align-items: center;
+    font-size: 2vw;
+    margin-left: 40vw;
+    margin-top: 8vh;
+   }
+   .box p{
+    text-align: center;
+   }
+   .mac img{
+    height: 47vh;
+    width: 45vw;
+    margin-left: 20vw;
+   }
+   .phone{
+    background-color: rgb(0, 0, 0);
+    height:70vh ;
+}
+.phone h1{
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 4vh;
+}
+.phone p{
+    color: white;
+    text-align: center;
+    font-size: 3.5vh;
+}
+.phone img{
+    height: 25vw;
+    margin-left: 45%;
+    margin-top: 3vh;
+
+}
+.program pre
+{   
+    padding-top: 5vh;
+    color: white;
+    font-size: 1.5vw;
+    background-color: rgb(73, 70, 77);
+
+}
+/* media quary*/
+@media screen and (max-width: 480px){
+    .mac img{
+        display: none;
+    }
+    .nav a{
+        display: none;
+    }
+    .logo img{
+        height: 3vh;
+        margin-left: 45vw;
+    }
+    .phone{
+        padding-top: 5vh;
+        height: 30vh;
+    }
+    .box{
+        display: none;
+    }
+    .program h2{
+        background-color: rgb(63, 58, 58);
+        color: white;
+        font-size: 2vh;
+        text-align: center;
+    }
+    .program pre{
+        padding-top: 2vh;
+    }
+}
+   
+
+

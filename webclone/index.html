@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--this is header-->
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="img/logo.png" alt="error">
+            </div>
+            <ul>
+                <li><a href="#">Sawan jatre</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">items</a></li>
+                <li><a href="#">support</a></li>
+                <li><a href="#">iphone</a></li>
+                <li><a href="#">watchs</a></li>
+                <li><a href="#">tv&mac</a></li>
+                <li><a href="#">objects</a></li>
+                <li><a href="#">alexa</a></li>
+            </ul>
+        </div>
+         
+    </header>
+    <!-- this is my main contain-->
+    <main>
+        <div class="box">
+            <h1>MacBook Air</h1>
+        <p>Lean.Mean.Mp3 machine.</p>
+        </div>
+        <div class="mac">
+            <img src="img/mac.png" alt="">
+        </div>
+        <div class="phone">
+            <h1>iphone 15 pro</h1>
+            <p>Titenium.So strong.So light.so pro</p>
+            <img src="img/phone.png" alt="error">
+        </div>
+        <div class="program">
+            <h2>Addition of Two 2D array and sum of them is in 3<sup>rd</sup> Array</h2>
+            <pre>
+                #include<$tdio.h>
+                    void main()
+                    {
+                        int i,j;
+                        int arr[3] [3];
+                        int arr1[3] [3];
+                        int arr2[3] [3];
+                        for(i=0;i<3;i++)
+                        {   
+                            for(j=0;j<3;j++)
+                            {   
+                                printf("enter a value for array 1 of %d row and %d col:  ",i,j);
+                                scanf("%d",&arr[i] [j]);
+                            }
+                            printf("\n");
+                        }
+                        for(i=0;i<3;i++)
+                        {   
+                            for(j=0;j<3;j++)
+                            {   
+                                printf("enter a value for array 2 of %d row and %d col:  ",i,j);
+                                scanf("%d",&arr1[i] [j]);
+                            }
+                            printf("\n");
+                        }
+                        for(i=0;i<3;i++)
+                        {
+                            for(j=0;j<3;j++)
+                            {
+                                arr2[i][j]=arr[i][j]+arr1[i][j];
+                            }
+                        }
+                        printf(" after adding the value of array 1 and array 2 your result is:\n ");
+                        for(i=0;i<3;i++)
+                        {
+                            for(j=0;j<3;j++)
+                            {
+                                printf("%d      ",arr2[i][j]);
+                            }
+                            printf("\n");
+                            
+                            
+                        }
+                        
+                    }
+            </pre>
+        </div>
+        <div class="program">
+            <h2>2D array linear search</h2>
+            <pre>
+                #include<$tdio.h>
+                    void main()
+                    {
+                        int i,j,k;
+                        int arr[3][3];
+                        // loop for printing array at rum time
+                        printf("welcome to sawan jatre project \n\n");
+                        for(i=0;i<3;i++)
+                        {
+                            for(j=0;j<3;j++)
+                            {   
+                                printf("enter a value for row %d index and for col %d index: ",i,j);
+                                scanf("%d",&arr[i][j]);
+                            }
+                            printf("\n");
+                        }
+                        //printing of array
+                        printf("this is your array \n \n");
+                        for(i=0;i<3;i++)
+                        {
+                            for(j=0;j<3;j++)
+                            {   
+                               printf("%d \t",arr[i][j]);
+                            }
+                            printf("\n");
+                        }
+                        printf("\n");
+                        printf("enter your find value :");
+                        scanf("%d",&k);
+                        //linear search in 2d array
+                        for(i=0;i<3;i++)
+                        {
+                            for(j=0;j<3;j++)
+                            {
+                                if(arr[i][j]==k)
+                                {
+                                    printf("element found at row %d and col %d index: ",i,j);
+                                }
+                                
+                            }
+                            
+                        }
+                        
+                    }
+            </pre>
+        </div>
+        
+    </main>
+</body>
+</html>
